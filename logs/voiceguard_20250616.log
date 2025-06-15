@@ -50,3 +50,98 @@
 2025-06-16 02:28:04 | services.tts_service | ERROR    | TTS 정리 오류: ThreadPoolExecutor.shutdown() got an unexpected keyword argument 'timeout'
 2025-06-16 02:28:04 | app.app              | INFO     | 📈 총 실행 시간: 0:00:23.652754
 2025-06-16 02:28:04 | app.app              | INFO     | ✅ 정리 완료
+2025-06-16 03:14:45 | utils.logger         | INFO     | ============================================================
+2025-06-16 03:14:45 | utils.logger         | INFO     | VoiceGuard AI 로깅 시스템 시작
+2025-06-16 03:14:45 | utils.logger         | INFO     | 로그 레벨: INFO
+2025-06-16 03:14:45 | utils.logger         | INFO     | 로그 파일: logs\voiceguard_20250616.log
+2025-06-16 03:14:45 | utils.logger         | INFO     | ============================================================
+2025-06-16 03:14:45 | app.app              | INFO     | VoiceGuard 애플리케이션 초기화
+2025-06-16 03:14:45 | app.app              | INFO     | 🔍 환경 검증 중...
+2025-06-16 03:14:46 | app.app              | INFO     | ✅ 환경 검증 완료
+2025-06-16 03:14:46 | app.app              | INFO     | 🚀 서비스 초기화 중...
+2025-06-16 03:14:52 | app.app              | INFO     | ✅ LLM 상태: ['gemini-1.5-flash', 'gemini-1.5-pro', 'gemini-2.0-flash']
+2025-06-16 03:14:52 | services.audio_manager | INFO     | ✅ 고성능 오디오 출력 초기화 완료
+2025-06-16 03:14:52 | app.app              | INFO     | ✅ 오디오 서비스 초기화
+2025-06-16 03:14:53 | services.tts_service | INFO     | TTS 연결 테스트: 성공
+2025-06-16 03:14:53 | app.app              | INFO     | ✅ TTS 서비스 연결
+2025-06-16 03:14:53 | app.app              | INFO     | 🎉 모든 서비스 초기화 완료
+2025-06-16 03:15:08 | app.modes.base_mode  | INFO     | PostIncidentMode 모드 초기화
+2025-06-16 03:15:08 | app.app              | INFO     | 🎯 post_incident 모드 시작
+2025-06-16 03:15:08 | app.modes.base_mode  | INFO     | 🎯 사후 대처 모드 시작
+2025-06-16 03:15:13 | app.modes.base_mode  | INFO     | 사후 대처 모드 종료 완료
+2025-06-16 03:15:13 | app.app              | INFO     | 🧹 리소스 정리 중...
+2025-06-16 03:15:13 | services.audio_manager | INFO     | 🧹 고성능 오디오 매니저 정리 중...
+2025-06-16 03:15:13 | services.audio_manager | INFO     | 🔇 오디오 재생 중지
+2025-06-16 03:15:13 | services.audio_manager | ERROR    | 오디오 매니저 정리 오류: Stream not open
+2025-06-16 03:15:13 | services.tts_service | INFO     | 🧹 TTS 서비스 정리 중...
+2025-06-16 03:15:13 | services.tts_service | INFO     | TTS 캐시 정리 완료: 3개 항목 삭제
+2025-06-16 03:15:13 | services.tts_service | ERROR    | TTS 정리 오류: ThreadPoolExecutor.shutdown() got an unexpected keyword argument 'timeout'
+2025-06-16 03:15:13 | app.app              | INFO     | 📈 총 실행 시간: 0:00:28.568529
+2025-06-16 03:15:13 | app.app              | INFO     | ✅ 정리 완료
+2025-06-16 03:19:39 | utils.logger         | INFO     | ============================================================
+2025-06-16 03:19:39 | utils.logger         | INFO     | VoiceGuard AI 로깅 시스템 시작
+2025-06-16 03:19:39 | utils.logger         | INFO     | 로그 레벨: INFO
+2025-06-16 03:19:39 | utils.logger         | INFO     | 로그 파일: logs\voiceguard_20250616.log
+2025-06-16 03:19:39 | utils.logger         | INFO     | ============================================================
+2025-06-16 03:19:39 | app.app              | INFO     | VoiceGuard 애플리케이션 초기화
+2025-06-16 03:19:39 | app.app              | INFO     | 🔍 환경 검증 중...
+2025-06-16 03:19:40 | app.app              | INFO     | ✅ 환경 검증 완료
+2025-06-16 03:19:40 | app.app              | INFO     | 🚀 서비스 초기화 중...
+2025-06-16 03:19:48 | app.app              | INFO     | ✅ LLM 상태: ['gemini-1.5-flash', 'gemini-1.5-pro', 'gemini-2.0-flash']
+2025-06-16 03:19:48 | services.audio_manager | INFO     | ✅ 고성능 오디오 출력 초기화 완료
+2025-06-16 03:19:48 | app.app              | INFO     | ✅ 오디오 서비스 초기화
+2025-06-16 03:19:48 | services.tts_service | INFO     | TTS 연결 테스트: 성공
+2025-06-16 03:19:48 | app.app              | INFO     | ✅ TTS 서비스 연결
+2025-06-16 03:19:48 | app.app              | INFO     | 🎉 모든 서비스 초기화 완료
+2025-06-16 03:19:57 | app.modes.base_mode  | INFO     | PostIncidentMode 모드 초기화
+2025-06-16 03:19:57 | app.app              | INFO     | 🎯 post_incident 모드 시작
+2025-06-16 03:19:57 | app.modes.base_mode  | INFO     | 🎯 사후 대처 모드 시작
+2025-06-16 03:20:13 | app.modes.base_mode  | INFO     | 사후 대처 모드 종료 완료
+2025-06-16 03:20:13 | app.app              | INFO     | 🧹 리소스 정리 중...
+2025-06-16 03:20:13 | services.audio_manager | INFO     | 🧹 고성능 오디오 매니저 정리 중...
+2025-06-16 03:20:13 | services.audio_manager | INFO     | 🔇 오디오 재생 중지
+2025-06-16 03:20:13 | services.audio_manager | ERROR    | 오디오 매니저 정리 오류: Stream not open
+2025-06-16 03:20:13 | services.tts_service | INFO     | 🧹 TTS 서비스 정리 중...
+2025-06-16 03:20:13 | services.tts_service | INFO     | TTS 캐시 정리 완료: 3개 항목 삭제
+2025-06-16 03:20:13 | services.tts_service | ERROR    | TTS 정리 오류: ThreadPoolExecutor.shutdown() got an unexpected keyword argument 'timeout'
+2025-06-16 03:20:13 | app.app              | INFO     | 📈 총 실행 시간: 0:00:33.584495
+2025-06-16 03:20:13 | app.app              | INFO     | ✅ 정리 완료
+2025-06-16 03:20:27 | utils.logger         | INFO     | ============================================================
+2025-06-16 03:20:27 | utils.logger         | INFO     | VoiceGuard AI 로깅 시스템 시작
+2025-06-16 03:20:27 | utils.logger         | INFO     | 로그 레벨: INFO
+2025-06-16 03:20:27 | utils.logger         | INFO     | 로그 파일: logs\voiceguard_20250616.log
+2025-06-16 03:20:27 | utils.logger         | INFO     | ============================================================
+2025-06-16 03:20:27 | app.app              | INFO     | VoiceGuard 애플리케이션 초기화
+2025-06-16 03:20:27 | app.app              | INFO     | 🔍 환경 검증 중...
+2025-06-16 03:20:28 | app.app              | INFO     | ✅ 환경 검증 완료
+2025-06-16 03:20:28 | app.app              | INFO     | 🚀 서비스 초기화 중...
+2025-06-16 03:20:36 | app.app              | INFO     | ✅ LLM 상태: ['gemini-1.5-flash', 'gemini-1.5-pro', 'gemini-2.0-flash']
+2025-06-16 03:20:36 | services.audio_manager | INFO     | ✅ 고성능 오디오 출력 초기화 완료
+2025-06-16 03:20:36 | app.app              | INFO     | ✅ 오디오 서비스 초기화
+2025-06-16 03:20:36 | services.tts_service | INFO     | TTS 연결 테스트: 성공
+2025-06-16 03:20:36 | app.app              | INFO     | ✅ TTS 서비스 연결
+2025-06-16 03:20:36 | app.app              | INFO     | 🎉 모든 서비스 초기화 완료
+2025-06-16 03:20:45 | app.modes.base_mode  | INFO     | DetectionMode 모드 초기화
+2025-06-16 03:20:45 | app.app              | INFO     | 🎯 detection 모드 시작
+2025-06-16 03:20:45 | app.modes.base_mode  | INFO     | 🎯 실시간 탐지 모드 시작
+2025-06-16 03:20:45 | services.simple_stt_service | INFO     | 간단한 STT 서비스 초기화
+2025-06-16 03:20:45 | core.analyzer        | INFO     | 보이스피싱 분석 엔진 초기화 완료
+2025-06-16 03:20:45 | app.modes.detection_mode | INFO     | ✅ 실시간 탐지 모드 초기화 완료
+2025-06-16 03:20:49 | services.simple_stt_service | INFO     | 간단한 STT 서비스 시작됨 (텍스트 입력 모드)
+2025-06-16 03:21:18 | core.llm_manager     | INFO     | 선택된 모델: gemini-2.0-flash (예산: $5.00)
+2025-06-16 03:21:44 | core.llm_manager     | INFO     | 선택된 모델: gemini-1.5-flash (예산: $4.90)
+2025-06-16 03:21:51 | app.app              | INFO     | 🛑 애플리케이션 종료 시작
+2025-06-16 03:21:51 | app.modes.base_mode  | INFO     | 실시간 탐지 모드 중지 요청
+2025-06-16 03:21:51 | services.simple_stt_service | INFO     | 간단한 STT 서비스 중지됨
+2025-06-16 03:21:51 | services.simple_stt_service | INFO     | 간단한 STT 서비스 중지됨
+2025-06-16 03:21:51 | app.modes.detection_mode | INFO     | 탐지 모드 정리 완료
+2025-06-16 03:21:51 | app.modes.base_mode  | INFO     | 실시간 탐지 모드 종료 완료
+2025-06-16 03:21:51 | app.app              | INFO     | 🧹 리소스 정리 중...
+2025-06-16 03:21:51 | services.audio_manager | INFO     | 🧹 고성능 오디오 매니저 정리 중...
+2025-06-16 03:21:51 | services.audio_manager | INFO     | 🔇 오디오 재생 중지
+2025-06-16 03:21:51 | services.audio_manager | ERROR    | 오디오 매니저 정리 오류: Stream not open
+2025-06-16 03:21:51 | services.tts_service | INFO     | 🧹 TTS 서비스 정리 중...
+2025-06-16 03:21:51 | services.tts_service | INFO     | TTS 캐시 정리 완료: 4개 항목 삭제
+2025-06-16 03:21:51 | services.tts_service | ERROR    | TTS 정리 오류: ThreadPoolExecutor.shutdown() got an unexpected keyword argument 'timeout'
+2025-06-16 03:21:51 | app.app              | INFO     | 📈 총 실행 시간: 0:01:23.385932
+2025-06-16 03:21:51 | app.app              | INFO     | ✅ 정리 완료
