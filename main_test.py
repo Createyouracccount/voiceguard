@@ -16,7 +16,8 @@ from datetime import datetime
 sys.path.insert(0, str(Path(__file__).parent))
 
 from config.settings import settings
-from services.conversation_manager import HighPerformanceConversationManager
+from services.conversation_manager_backup import HighPerformanceConversationManager
+from services.conversation_manager import EnhancedConversationManager as ConversationManager
 
 # 간단하고 효율적인 로깅 설정
 def setup_logging():
